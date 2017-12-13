@@ -165,5 +165,16 @@ namespace Remote
         {
             messenger.SendMessage("MESSAGE", "Drop");
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            EV3Message statusMessage = messenger.ReadMessage();
+            statusLabel.Text = statusMessage.ValueAsText;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

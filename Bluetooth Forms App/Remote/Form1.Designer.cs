@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.startDrivingButton = new System.Windows.Forms.Button();
             this.stopDrivingButton = new System.Windows.Forms.Button();
             this.updateStatusButton = new System.Windows.Forms.Button();
@@ -49,6 +50,9 @@
             this.pickupGroupBox = new System.Windows.Forms.GroupBox();
             this.driveGroupBox = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.statusLabel = new System.Windows.Forms.Label();
             this.inputBox.SuspendLayout();
             this.outputBox.SuspendLayout();
             this.connectionBox.SuspendLayout();
@@ -230,6 +234,7 @@
             // 
             // controlsBox
             // 
+            this.controlsBox.Controls.Add(this.statusLabel);
             this.controlsBox.Controls.Add(this.pickupGroupBox);
             this.controlsBox.Controls.Add(this.driveGroupBox);
             this.controlsBox.Controls.Add(this.label1);
@@ -272,6 +277,20 @@
             this.label1.Size = new System.Drawing.Size(98, 17);
             this.label1.TabIndex = 6;
             this.label1.Text = "Robot Status: ";
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // statusLabel
+            // 
+            this.statusLabel.AutoSize = true;
+            this.statusLabel.Location = new System.Drawing.Point(200, 247);
+            this.statusLabel.Name = "statusLabel";
+            this.statusLabel.Size = new System.Drawing.Size(0, 17);
+            this.statusLabel.TabIndex = 9;
+            this.statusLabel.Click += new System.EventHandler(this.label2_Click);
             // 
             // Form
             // 
@@ -319,6 +338,9 @@
         private System.Windows.Forms.GroupBox pickupGroupBox;
         private System.Windows.Forms.GroupBox driveGroupBox;
         private System.Windows.Forms.TextBox inputTextBox;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label statusLabel;
+        private System.Windows.Forms.Timer timer2;
     }
 }
 
