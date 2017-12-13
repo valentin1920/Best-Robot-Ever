@@ -10,3 +10,14 @@ C:\Users\DJ Alex\Desktop\Remote\Remote\obj\Debug\Remote.csproj.CoreCompileInputs
 C:\Users\DJ Alex\Desktop\Remote\Remote\obj\Debug\Remote.exe
 C:\Users\DJ Alex\Desktop\Remote\Remote\obj\Debug\Remote.pdb
 C:\Users\DJ Alex\Desktop\Remote\Remote\obj\Debug\Remote.Form.resources
+C:\Users\DJ Alex\Documents\GitHub\Best-Robot-Ever\Bluetooth Forms App\Remote\bin\Debug\Remote.exe.config
+C:\Users\DJ Alex\Documents\GitHub\Best-Robot-Ever\Bluetooth Forms App\Remote\bin\Debug\Remote.exe
+C:\Users\DJ Alex\Documents\GitHub\Best-Robot-Ever\Bluetooth Forms App\Remote\bin\Debug\Remote.pdb
+C:\Users\DJ Alex\Documents\GitHub\Best-Robot-Ever\Bluetooth Forms App\Remote\bin\Debug\EV3MessengerLib.xml
+C:\Users\DJ Alex\Documents\GitHub\Best-Robot-Ever\Bluetooth Forms App\Remote\obj\Debug\Remote.csprojResolveAssemblyReference.cache
+C:\Users\DJ Alex\Documents\GitHub\Best-Robot-Ever\Bluetooth Forms App\Remote\obj\Debug\Remote.Form.resources
+C:\Users\DJ Alex\Documents\GitHub\Best-Robot-Ever\Bluetooth Forms App\Remote\obj\Debug\Remote.Properties.Resources.resources
+C:\Users\DJ Alex\Documents\GitHub\Best-Robot-Ever\Bluetooth Forms App\Remote\obj\Debug\Remote.csproj.GenerateResource.Cache
+C:\Users\DJ Alex\Documents\GitHub\Best-Robot-Ever\Bluetooth Forms App\Remote\obj\Debug\Remote.csproj.CoreCompileInputs.cache
+C:\Users\DJ Alex\Documents\GitHub\Best-Robot-Ever\Bluetooth Forms App\Remote\obj\Debug\Remote.exe
+C:\Users\DJ Alex\Documents\GitHub\Best-Robot-Ever\Bluetooth Forms App\Remote\obj\Debug\Remote.pdb

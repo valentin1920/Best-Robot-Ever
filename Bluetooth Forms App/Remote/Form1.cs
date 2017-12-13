@@ -139,5 +139,31 @@ namespace Remote
             messenger.Disconnect();
             updateFormGUI();
         }
+        private void startDrivingButton_Click(object sender, EventArgs e)
+        {
+            messenger.SendMessage("MESSAGE", "Start");
+        }
+        private void stopDrivingButton_Click(object sender, EventArgs e)
+        {
+            messenger.SendMessage("MESSAGE", "Stop");
+        }
+        private void updateStatusButton_Click(object sender, EventArgs e)
+        {
+            messenger.SendMessage("MESSAGE", "Status");
+        }
+        private void updateStatusButton2_Click(object sender, EventArgs e)
+        {
+            messenger.SendMessage("MESSAGE", "Status");
+        }
+
+        private void startPickupButton_Click(object sender, EventArgs e)
+        {
+            messenger.SendMessage("MESSAGE", "Pick");
+        }
+
+        private void stopPickupButton_Click(object sender, EventArgs e)
+        {
+            messenger.SendMessage("MESSAGE", "Drop");
+        }
     }
 }

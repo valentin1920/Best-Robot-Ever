@@ -65,6 +65,7 @@
             this.startDrivingButton.TabIndex = 0;
             this.startDrivingButton.Text = "Start Driving";
             this.startDrivingButton.UseVisualStyleBackColor = true;
+            this.startDrivingButton.Click += new System.EventHandler(this.startDrivingButton_Click);
             // 
             // stopDrivingButton
             // 
@@ -74,6 +75,7 @@
             this.stopDrivingButton.TabIndex = 1;
             this.stopDrivingButton.Text = "Stop Driving";
             this.stopDrivingButton.UseVisualStyleBackColor = true;
+            this.stopDrivingButton.Click += new System.EventHandler(this.stopDrivingButton_Click);
             // 
             // updateStatusButton
             // 
@@ -83,6 +85,7 @@
             this.updateStatusButton.TabIndex = 2;
             this.updateStatusButton.Text = "Update Status";
             this.updateStatusButton.UseVisualStyleBackColor = true;
+            this.updateStatusButton.Click += new System.EventHandler(this.updateStatusButton_Click);
             // 
             // startPickupButton
             // 
@@ -92,6 +95,7 @@
             this.startPickupButton.TabIndex = 3;
             this.startPickupButton.Text = "Start Pickup";
             this.startPickupButton.UseVisualStyleBackColor = true;
+            this.startPickupButton.Click += new System.EventHandler(this.startPickupButton_Click);
             // 
             // stopPickupButton
             // 
@@ -101,6 +105,7 @@
             this.stopPickupButton.TabIndex = 4;
             this.stopPickupButton.Text = "Stop Pickup";
             this.stopPickupButton.UseVisualStyleBackColor = true;
+            this.stopPickupButton.Click += new System.EventHandler(this.stopPickupButton_Click);
             // 
             // updateStatusButton2
             // 
@@ -110,6 +115,7 @@
             this.updateStatusButton2.TabIndex = 5;
             this.updateStatusButton2.Text = "Update Status";
             this.updateStatusButton2.UseVisualStyleBackColor = true;
+            this.updateStatusButton2.Click += new System.EventHandler(this.updateStatusButton2_Click);
             // 
             // portsListBox
             // 
